@@ -4,8 +4,7 @@
   "private": true,
   "scripts": {
     "studio": "remotion studio src/index.ts --port 3033",
-    "render": "node scripts/render.mjs",
-    "voice": "python3 scripts/voice.py"
+    "render": "node scripts/render.mjs"
   },
   "dependencies": {
     "@remotion/cli": "4.0.539",

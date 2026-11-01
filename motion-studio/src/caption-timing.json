@@ -1,7 +1,7 @@
 {
   "fps": 30,
   "audioLead": 0.3,
-  "narrationFile": "narration-v19.mp3",
+  "narrationFile": "narration.mp3",
   "audioSeconds": 71.2,
   "hasVoice": true,
   "audioTempoFactor": 1,

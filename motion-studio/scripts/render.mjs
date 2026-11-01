@@ -1,31 +1,24 @@
 import {bundle} from '@remotion/bundler';
-import {renderMedia,renderStill,selectComposition} from '@remotion/renderer';
-import fs from 'node:fs';
-import path from 'node:path';
-import {fileURLToPath} from 'node:url';
+import {renderMedia,renderStill,selectComposition,openBrowser} from '@remotion/renderer';
+import fs from 'node:fs';import path from 'node:path';import {fileURLToPath} from 'node:url';
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
-const args=process.argv.slice(2);
-const preview=args.includes('--stills');
-const draft=args.includes('--draft');
-const sample=args.includes('--sample');
+const args=process.argv.slice(2),mode=args.includes('--stills')?'stills':(args.includes('--proof')||args.includes('--proof-extra'))?'proof':'full';
+const draft=args.includes('--draft'),timing=JSON.parse(fs.readFileSync(path.join(root,'src/timing.json'),'utf8'));
+const browserExecutable=path.join(root,'scripts/chrome-cpu-render.sh');
 const serveUrl=await bundle({entryPoint:path.join(root,'src/index.ts'),publicDir:path.join(root,'public'),outDir:path.join(root,'.bundle')});
-const options={serveUrl,id:'EmpatiBukanIzin',logLevel:'error',browserExecutable:'/Applications/Google Chrome.app/Contents/MacOS/Google Chrome'};
-const composition=await selectComposition(options);
-if(preview){
- const timing=JSON.parse(fs.readFileSync(path.join(root,'src/timing.json'),'utf8'));
- fs.mkdirSync(path.join(root,'previews'),{recursive:true});
- const reviewTimes=[1.2,7,9.2,10.8,12.5,16.8,20.5,28.5,36.8,40.8,48.5,54.5,56,61,63,66.2,68.5,72.5];
- for(let i=0;i<reviewTimes.length;i++){
-  const seconds=reviewTimes[i];
-  await renderStill({...options,composition,frame:Math.round(seconds*30),output:path.join(root,'previews',`v5-${String(i).padStart(2,'0')}-${seconds}.png`),scale:.5});
-  console.log('Review frame:',seconds);
+const browser=await openBrowser('chrome',{browserExecutable,logLevel:'error'});
+const opts={serveUrl,id:'MotionStudio',logLevel:'error',browserExecutable,puppeteerInstance:browser};
+try{
+ const composition=await selectComposition(opts);fs.mkdirSync(path.join(root,'output'),{recursive:true});
+ if(mode==='stills'){
+  const dir=path.join(root,'previews');fs.mkdirSync(dir,{recursive:true});
+  const at=args.find(a=>a.startsWith('--at='));
+  const times=at?at.split('=')[1].split(',').map(Number):timing.segments.flatMap(s=>[s.start+.5,s.start+(s.end-s.start)*.70]);
+  for(const s of times){const frame=Math.min(composition.durationInFrames-1,Math.round(s*30));await renderStill({...opts,composition,frame,output:path.join(dir,`f${String(frame).padStart(5,'0')}.png`),scale:.5});console.log('still',frame)}
+ }else if(mode==='proof'){
+  const requests=[['opening',0,3.5],['work',30.8,3.4]];
+  for(const [name,start,len] of requests.filter(r=>!args.some(a=>a.startsWith('--only='))||r[0]===args.find(a=>a.startsWith('--only=')).split('=')[1])){const first=Math.round(start*30),last=Math.min(composition.durationInFrames-1,first+Math.round(len*30)-1);await renderMedia({...opts,composition,codec:'h264',outputLocation:path.join(root,'output',`proof-${name}.mp4`),frameRange:[first,last],scale:.5,crf:23,concurrency:2,audioCodec:'aac',pixelFormat:'yuv420p'});console.log('proof',name)}
+ }else{
+  let last=-1;await renderMedia({...opts,composition,codec:'h264',outputLocation:path.join(root,'output',draft?'Motion-Studio-Draft.mp4':'Motion-Studio-TikTok.mp4'),scale:draft?2/3:1,crf:draft?25:18,concurrency:2,audioCodec:'aac',audioBitrate:'192k',pixelFormat:'yuv420p',onProgress:({progress})=>{const p=Math.floor(progress*10);if(p!==last){last=p;console.log(`Rendering ${p*10}%`)}}});console.log('V20 export complete')
  }
- await renderStill({...options,composition,frame:composition.durationInFrames-18,output:path.join(root,'previews','v5-99-outro.png'),scale:.5});
-}else{
- fs.mkdirSync(path.join(root,'output'),{recursive:true});
- const timing=JSON.parse(fs.readFileSync(path.join(root,'src/timing.json'),'utf8'));
- const output=path.join(root,'output',sample?'Empati-Bukan-Izin-V5-Cuplikan.mp4':timing.hasVoice?'Empati-Bukan-Izin-V5-TikTok.mp4':'Empati-Bukan-Izin-V5-Pratinjau.mp4');
- let last=-1;
- await renderMedia({...options,composition,codec:'h264',outputLocation:output,crf:draft?25:18,pixelFormat:'yuv420p',audioCodec:'aac',audioBitrate:'192k',concurrency:3,scale:draft?2/3:1,frameRange:sample?[0,Math.min(539,composition.durationInFrames-1)]:undefined,onProgress:({progress})=>{const n=Math.floor(progress*10);if(n!==last){last=n;console.log(`Rendering ${n*10}%`)}},chromiumOptions:{disableWebSecurity:false}});
- console.log('Video:',output);
-}
+}finally{await browser.close({silent:true})}

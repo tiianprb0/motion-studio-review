@@ -1,6 +1,6 @@
 import React from 'react';
 import {AbsoluteFill,Audio,Img,Sequence,staticFile,useCurrentFrame,delayRender,continueRender} from 'remotion';
-import timing from '../timing-v20.json';
+import timing from '../timing.json';
 import {P,ramp} from './Character';
 import {Caption} from './Captions';
 import {Outro} from './Elements';

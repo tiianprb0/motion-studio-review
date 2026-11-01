@@ -1,7 +1,5 @@
 # Update terakhir — 1 November 2026
 
-Isi branch main diganti dengan source snapshot dan konfigurasi kreatif aktif hasil interview. Dokumen review lama, project-notes lama dan folder arsip tidak dimasukkan.
+Dihapus dari snapshot main: seluruh folder versi lama, composition lama, file timing/audio lama yang tidak diperlukan, renderer lama dan dokumen review lama. Implementasi produksi terbaru dipindahkan menjadi satu folder src/film/ tanpa folder bernomor versi. Root hanya mendaftarkan MotionStudio; package scripts render/studio diarahkan ke implementasi ini. Audio dan timing yang diperlukan menggunakan nama tanpa nomor versi.
 
-Konfigurasi persona/skill mencakup Master World Canvas, kontinuitas kamera/waktu, riset, identitas Naya/Yan, narator per naskah, subtitle kiri, template warna/nada, outro tetap dan isolasi proyek baru. ID suara Yan belum dipilih; API langsung belum dikonfigurasi.
-
-Kode/audio produksi tetap snapshot yang tersedia, belum direfaktor otomatis sesuai kontrak baru. Versi source lama yang masih didaftarkan entry point disertakan untuk menjaga impor; ini bukan folder arsip atau klaim semua versi menerapkan aturan interview. Riwayat commit tetap tersedia untuk pemulihan.
+Kontrak dan skill hasil interview dipertahankan. Tidak ada arsip di repo. Riwayat commit tetap ada. Ini pembersihan dan penyesuaian wiring source, bukan klaim refaktor master-world atau persetujuan kreatif baru.

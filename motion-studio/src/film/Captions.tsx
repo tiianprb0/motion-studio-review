@@ -2,6 +2,7 @@ import React from 'react';
 import {quick,ramp,P} from './Character';
 import layouts from './caption-layouts.json';
 import metrics from './caption-metrics.json';
+import timing from '../caption-timing.json';
 export type Cue={start:number;end:number;text:string;segment:string};
 export type Position='top-left'|'top-center'|'top-right'|'middle-left'|'middle-center'|'middle-right'|'bottom-left'|'bottom-center'|'bottom-right';
 export const SAFE_AREA={left:90,right:900,top:280,bottom:1240};
@@ -26,6 +27,6 @@ export const Caption:React.FC<{cue:Cue;index:number;frame:number}>=({cue,index,f
  const {zone,rows,top}=captionGeometry(index),entry=Math.ceil(cue.start*30),end=Math.ceil(cue.end*30),q=quick(frame,entry,entry+7),leave=1-ramp(frame,end-3,end);
  const dx=(1-q)*(zone.align==='left'?-16:zone.align==='right'?16:0),dy=(1-q)*(zone.vertical==='bottom'?16:-12);
  return <g data-caption="true" data-cue={index} data-position={layouts[index].position} data-align={zone.align} data-caption-mode="svg-word-backgrounds" opacity={q*leave} transform={`translate(${dx} ${dy})`} fontFamily="Lato" fontSize={FONT_SIZE} fontWeight="700">
-  {rows.map((row,i)=>{const width=row.reduce((a,w)=>a+wordWidth(w),0)+(row.length-1)*8;let cursor=zone.x-(zone.align==='right'?width:zone.align==='center'?width/2:0);return <g key={i} data-caption-row="true">{row.map((word,j)=>{const x=cursor,w=wordWidth(word),accent=highlighted(word);cursor+=w+8;return <g data-caption-word="true" key={j}><rect x={x} y={top+i*70} width={w} height="62" rx="8" fill={index<=2?(accent?'#E8CC9F':P.ink):(accent?P.wine:'#FFFAF1')} stroke="#FFFFFF" strokeOpacity=".35"/><text x={x+10} y={top+i*70+45} fill={index<=2?(accent?P.ink:P.cream):(accent?P.cream:P.ink)} fontWeight={accent?900:700}>{word}</text></g>})}</g>})}
+  {rows.map((row,i)=>{const width=row.reduce((a,w)=>a+wordWidth(w),0)+(row.length-1)*8;let cursor=zone.x-(zone.align==='right'?width:zone.align==='center'?width/2:0);return <g key={i} data-caption-row="true">{row.map((word,j)=>{const x=cursor,w=wordWidth(word),accent=highlighted(word);cursor+=w+8;return <g data-caption-word="true" key={j}><rect x={x} y={top+i*70} width={w} height="62" rx="8" fill={cue.start<timing.segments[0].end?(accent?'#E8CC9F':P.ink):(accent?P.wine:'#FFFAF1')} stroke="#FFFFFF" strokeOpacity=".35"/><text x={x+10} y={top+i*70+45} fill={cue.start<timing.segments[0].end?(accent?P.ink:P.cream):(accent?P.cream:P.ink)} fontWeight={accent?900:700}>{word}</text></g>})}</g>})}
  </g>;
 };

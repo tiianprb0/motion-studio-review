@@ -1,1349 +1,281 @@
 {
   "fps": 30,
-  "duration": 76.3666666667,
-  "hasVoice": true,
   "audioLead": 0.3,
+  "narrationFile": "narration.mp3",
+  "audioSeconds": 71.2,
+  "hasVoice": true,
+  "audioTempoFactor": 1,
+  "directWordMatchRatio": 0.9172413793103448,
+  "alignmentSource": "Local Whisper base words mapped to exact source text",
   "segments": [
     {
-      "id": "hook",
-      "art": "hook",
-      "kicker": "CATATAN TENTANG EMPATI",
-      "title": [
-        "Memahami.",
-        "Bukan berarti",
-        "membiarkan."
-      ],
-      "text": "Understanding someone’s feelings doesn’t mean you have to tolerate their behavior forever.",
+      "id": "beat1",
+      "text": "katanya, buat apa ikut demonstrasi kalau masih bisa membeli minuman mahal?",
       "start": 0,
-      "end": 5.395351032448378
+      "end": 5.62
     },
     {
-      "id": "phone",
-      "art": "bed",
-      "kicker": "SEBUAH CERITA",
-      "title": [
-        "Saat kepercayaan",
-        "mulai diuji."
-      ],
-      "text": "Pernah lihat cerita tentang seorang perempuan yang mendapati pasangannya memeriksa HP-nya saat dia tidur?",
-      "start": 5.395351032448378,
-      "end": 11.955351032448378
+      "id": "beat2",
+      "text": "aku justru ingin bertanya, sejak kapan kemampuan seseorang membeli sesuatu menentukan apakah dia berhak menyuarakan ketidakadilan?",
+      "start": 5.62,
+      "end": 14.4
     },
     {
-      "id": "insecurity",
-      "art": "empathy",
-      "kicker": "DI BALIK PERILAKU",
-      "title": [
-        "Ada rasa",
-        "tidak aman."
-      ],
-      "text": "Alih-alih marah, dia justru mencoba memahami apa yang membuat pasangannya merasa tidak aman.",
-      "start": 11.955351032448378,
-      "end": 18.33535103244838
+      "id": "beat3",
+      "text": "aku mungkin masih punya pekerjaan, masih bisa membeli makanan yang layak, bahkan menikmati sesuatu yang tidak semua orang mampu beli.",
+      "start": 14.4,
+      "end": 22.419999999999998
     },
     {
-      "id": "reassurance",
-      "art": "reassure",
-      "kicker": "MENCOBA MENGERTI",
-      "title": [
-        "Menenangkan.",
-        "Meyakinkan."
-      ],
-      "text": "Bahkan, dia memberikan reassurance bahwa hanya ada dia di hatinya. And honestly, there’s nothing wrong with that.",
-      "start": 18.33535103244838,
-      "end": 26.59535103244838
+      "id": "beat4",
+      "text": "tapi apakah itu berarti aku harus menutup mata terhadap mereka yang bahkan kesulitan memenuhi kebutuhan sehari-hari?",
+      "start": 22.419999999999998,
+      "end": 30.8
     },
     {
-      "id": "empathy",
-      "art": "heart",
-      "kicker": "PERTAMA ATAU KEDUA KALI",
-      "title": [
-        "Itu bisa menjadi",
-        "bentuk empati."
-      ],
-      "text": "Setidaknya, untuk pertama atau kedua kalinya, memahami perasaan seseorang bisa menjadi bentuk empati.",
-      "start": 26.59535103244838,
-      "end": 34.05535103244838
+      "id": "beat5",
+      "text": "aku sadar, tidak semua orang punya kesempatan untuk bersuara.",
+      "start": 30.8,
+      "end": 35.339999999999996
     },
     {
-      "id": "repeat",
-      "art": "repeat",
-      "kicker": "TAPI, BAGAIMANA JIKA…",
-      "title": [
-        "Terjadi.",
-        "Lagi. Dan lagi."
-      ],
-      "text": "Tetapi, bagaimana jika hal yang sama terus berulang?",
-      "start": 34.05535103244838,
-      "end": 38.515351032448365
+      "id": "beat6",
+      "text": "ada orang yang harus memilih antara ikut menyampaikan aspirasi atau kehilangan penghasilan hari itu.",
+      "start": 35.339999999999996,
+      "end": 41.94
     },
     {
-      "id": "distinction",
-      "art": "split",
-      "kicker": "BEDAKAN DUA HAL INI",
-      "title": [
-        "Memahami rasa.",
-        "Membatasi tindakan."
-      ],
-      "text": "Di sinilah kita perlu membedakan antara memahami perasaan dan membiarkan perilaku.",
-      "start": 38.515351032448365,
-      "end": 44.81535103244837
+      "id": "beat7",
+      "text": "ada yang terlalu sibuk bertahan hidup, sampai tidak punya waktu, tenaga, bahkan keberanian untuk memperjuangkan haknya sendiri.",
+      "start": 41.94,
+      "end": 50.12
     },
     {
-      "id": "mistake",
-      "art": "pattern",
-      "kicker": "BUKAN HANYA SATU KEJADIAN",
-      "title": [
-        "Sebuah kesalahan…"
-      ],
-      "text": "Ketika sesuatu terus terjadi, kita tidak lagi hanya membicarakan sebuah kesalahan.",
-      "start": 44.81535103244837,
-      "end": 50.45535103244837
+      "id": "beat8",
+      "text": "itulah mengapa aku percaya, tidak semua orang turun ke jalan hanya untuk dirinya sendiri.",
+      "start": 50.12,
+      "end": 56.879999999999995
     },
     {
-      "id": "pattern",
-      "art": "pattern",
-      "kicker": "LIHAT YANG BERULANG",
-      "title": [
-        "…menjadi",
-        "sebuah pola."
-      ],
-      "text": "Kita mulai melihat sebuah pola.",
-      "start": 50.45535103244837,
-      "end": 53.035351032448375
+      "id": "beat9",
+      "text": "terkadang, aku memperjuangkan sesuatu yang mungkin tidak pernah bisa diperjuangkan oleh orang yang paling membutuhkan perubahan itu.",
+      "start": 56.879999999999995,
+      "end": 65.22
     },
     {
-      "id": "accountability",
-      "art": "action",
-      "kicker": "PENGERTIAN SAJA TIDAK CUKUP",
-      "title": [
-        "Perlu tanggung",
-        "jawab."
-      ],
-      "text": "Dan pola membutuhkan lebih dari sekadar pengertian. It requires accountability.",
-      "start": 53.035351032448375,
-      "end": 59.255351032448374
+      "id": "beat10",
+      "text": "karena kepedulian tidak harus lahir dari penderitaan yang sama.",
+      "start": 65.22,
+      "end": 69.10000000000001
     },
     {
-      "id": "step1",
-      "art": "steps",
-      "step": 0,
-      "kicker": "01 / PAHAMI",
-      "title": [
-        "Understand",
-        "the feeling."
-      ],
-      "text": "First time, understand the feeling.",
-      "start": 59.255351032448374,
-      "end": 62.05535103244837
-    },
-    {
-      "id": "step2",
-      "art": "steps",
-      "step": 1,
-      "kicker": "02 / KOMUNIKASIKAN",
-      "title": [
-        "Communicate",
-        "your boundaries."
-      ],
-      "text": "When it repeats, communicate your boundaries.",
-      "start": 62.05535103244837,
-      "end": 65.21535103244837
-    },
-    {
-      "id": "step3",
-      "art": "steps",
-      "step": 2,
-      "kicker": "03 / HARAPKAN PERUBAHAN",
-      "title": [
-        "Accountability.",
-        "And change."
-      ],
-      "text": "And when it becomes a habit, expect accountability and change.",
-      "start": 65.21535103244837,
-      "end": 69.73535103244836
-    },
-    {
-      "id": "closing",
-      "art": "grow",
-      "kicker": "EMPATI YANG SEHAT",
-      "title": [
-        "Membantu tumbuh.",
-        "Bukan mengulang."
-      ],
-      "text": "Because empathy should help someone grow, not give them permission to repeat the same mistake.",
-      "start": 69.73535103244836,
-      "end": 76.3666666667
+      "id": "beat11",
+      "text": "LESS CERTAIN.",
+      "start": 69.10000000000001,
+      "end": 71.29
     }
   ],
-  "captions": [
-    {
-      "start": 0.3,
-      "end": 1.78,
-      "words": [
-        {
-          "text": "Understanding",
-          "start": 0.3,
-          "end": 0.72
-        },
-        {
-          "text": "someone’s",
-          "start": 0.72,
-          "end": 1.4
-        },
-        {
-          "text": "feelings",
-          "start": 1.4,
-          "end": 1.78
-        }
-      ]
-    },
-    {
-      "start": 1.78,
-      "end": 3.14,
-      "words": [
-        {
-          "text": "doesn’t",
-          "start": 1.78,
-          "end": 2.42
-        },
-        {
-          "text": "mean",
-          "start": 2.42,
-          "end": 2.6199999999999997
-        },
-        {
-          "text": "you",
-          "start": 2.6199999999999997,
-          "end": 2.82
-        },
-        {
-          "text": "have",
-          "start": 2.82,
-          "end": 2.96
-        },
-        {
-          "text": "to",
-          "start": 2.96,
-          "end": 3.14
-        }
-      ]
-    },
-    {
-      "start": 3.14,
-      "end": 4.9399999999999995,
-      "words": [
-        {
-          "text": "tolerate",
-          "start": 3.14,
-          "end": 3.6199999999999997
-        },
-        {
-          "text": "their",
-          "start": 3.6199999999999997,
-          "end": 3.88
-        },
-        {
-          "text": "behavior",
-          "start": 3.88,
-          "end": 4.319999999999999
-        },
-        {
-          "text": "forever.",
-          "start": 4.319999999999999,
-          "end": 4.9399999999999995
-        }
-      ]
-    },
-    {
-      "start": 5.54,
-      "end": 6.96,
-      "words": [
-        {
-          "text": "Pernah",
-          "start": 5.54,
-          "end": 5.92
-        },
-        {
-          "text": "lihat",
-          "start": 5.92,
-          "end": 6.3
-        },
-        {
-          "text": "cerita",
-          "start": 6.3,
-          "end": 6.64
-        },
-        {
-          "text": "tentang",
-          "start": 6.64,
-          "end": 6.96
-        }
-      ]
-    },
-    {
-      "start": 6.96,
-      "end": 8.680000000000001,
-      "words": [
-        {
-          "text": "seorang",
-          "start": 6.96,
-          "end": 7.319999999999999
-        },
-        {
-          "text": "perempuan",
-          "start": 7.319999999999999,
-          "end": 7.92
-        },
-        {
-          "text": "yang",
-          "start": 7.92,
-          "end": 8.14
-        },
-        {
-          "text": "mendapati",
-          "start": 8.14,
-          "end": 8.680000000000001
-        }
-      ]
-    },
-    {
-      "start": 8.680000000000001,
-      "end": 10.58,
-      "words": [
-        {
-          "text": "pasangannya",
-          "start": 8.680000000000001,
-          "end": 9.28
-        },
-        {
-          "text": "memeriksa",
-          "start": 9.28,
-          "end": 9.83
-        },
-        {
-          "text": "HP-nya",
-          "start": 9.83,
-          "end": 10.38
-        },
-        {
-          "text": "saat",
-          "start": 10.38,
-          "end": 10.58
-        }
-      ]
-    },
-    {
-      "start": 10.58,
-      "end": 11.3,
-      "words": [
-        {
-          "text": "dia",
-          "start": 10.58,
-          "end": 10.8
-        },
-        {
-          "text": "tidur?",
-          "start": 10.8,
-          "end": 11.3
-        }
-      ]
-    },
-    {
-      "start": 12.100000000000001,
-      "end": 14.200000000000001,
-      "words": [
-        {
-          "text": "Alih-alih",
-          "start": 12.100000000000001,
-          "end": 12.780000000000001
-        },
-        {
-          "text": "marah,",
-          "start": 12.780000000000001,
-          "end": 13.24
-        },
-        {
-          "text": "dia",
-          "start": 13.700000000000001,
-          "end": 13.780000000000001
-        },
-        {
-          "text": "justru",
-          "start": 13.780000000000001,
-          "end": 14.200000000000001
-        }
-      ]
-    },
-    {
-      "start": 14.200000000000001,
-      "end": 16.26,
-      "words": [
-        {
-          "text": "mencoba",
-          "start": 14.200000000000001,
-          "end": 14.560000000000002
-        },
-        {
-          "text": "memahami",
-          "start": 14.560000000000002,
-          "end": 15.280000000000001
-        },
-        {
-          "text": "apa",
-          "start": 15.280000000000001,
-          "end": 15.780000000000001
-        },
-        {
-          "text": "yang",
-          "start": 15.780000000000001,
-          "end": 15.98
-        },
-        {
-          "text": "membuat",
-          "start": 15.98,
-          "end": 16.26
-        }
-      ]
-    },
-    {
-      "start": 16.26,
-      "end": 17.740000000000002,
-      "words": [
-        {
-          "text": "pasangannya",
-          "start": 16.26,
-          "end": 16.88
-        },
-        {
-          "text": "merasa",
-          "start": 16.88,
-          "end": 17.16
-        },
-        {
-          "text": "tidak",
-          "start": 17.16,
-          "end": 17.46
-        },
-        {
-          "text": "aman.",
-          "start": 17.46,
-          "end": 17.740000000000002
-        }
-      ]
-    },
-    {
-      "start": 18.48,
-      "end": 20.900000000000002,
-      "words": [
-        {
-          "text": "Bahkan,",
-          "start": 18.48,
-          "end": 19.16
-        },
-        {
-          "text": "dia",
-          "start": 19.560000000000002,
-          "end": 19.66
-        },
-        {
-          "text": "memberikan",
-          "start": 19.66,
-          "end": 20.18
-        },
-        {
-          "text": "reassurance",
-          "start": 20.18,
-          "end": 20.900000000000002
-        }
-      ]
-    },
-    {
-      "start": 20.900000000000002,
-      "end": 22.62,
-      "words": [
-        {
-          "text": "bahwa",
-          "start": 20.900000000000002,
-          "end": 21.36
-        },
-        {
-          "text": "hanya",
-          "start": 21.36,
-          "end": 21.76
-        },
-        {
-          "text": "ada",
-          "start": 21.76,
-          "end": 22.060000000000002
-        },
-        {
-          "text": "dia",
-          "start": 22.060000000000002,
-          "end": 22.42
-        },
-        {
-          "text": "di",
-          "start": 22.42,
-          "end": 22.62
-        }
-      ]
-    },
-    {
-      "start": 22.62,
-      "end": 23.04,
-      "words": [
-        {
-          "text": "hatinya.",
-          "start": 22.62,
-          "end": 23.04
-        }
-      ]
-    },
-    {
-      "start": 23.8,
-      "end": 25.46,
-      "words": [
-        {
-          "text": "And",
-          "start": 23.8,
-          "end": 23.92
-        },
-        {
-          "text": "honestly,",
-          "start": 23.92,
-          "end": 24.44
-        },
-        {
-          "text": "there’s",
-          "start": 24.98,
-          "end": 25.16
-        },
-        {
-          "text": "nothing",
-          "start": 25.16,
-          "end": 25.46
-        }
-      ]
-    },
-    {
-      "start": 25.46,
-      "end": 26.14,
-      "words": [
-        {
-          "text": "wrong",
-          "start": 25.46,
-          "end": 25.68
-        },
-        {
-          "text": "with",
-          "start": 25.68,
-          "end": 25.94
-        },
-        {
-          "text": "that.",
-          "start": 25.94,
-          "end": 26.14
-        }
-      ]
-    },
-    {
-      "start": 26.740000000000002,
-      "end": 28.740000000000002,
-      "words": [
-        {
-          "text": "Setidaknya,",
-          "start": 26.740000000000002,
-          "end": 27.46
-        },
-        {
-          "text": "untuk",
-          "start": 27.78,
-          "end": 27.94
-        },
-        {
-          "text": "pertama",
-          "start": 27.94,
-          "end": 28.359999999999996
-        },
-        {
-          "text": "atau",
-          "start": 28.359999999999996,
-          "end": 28.740000000000002
-        }
-      ]
-    },
-    {
-      "start": 28.740000000000002,
-      "end": 31.1,
-      "words": [
-        {
-          "text": "kedua",
-          "start": 28.740000000000002,
-          "end": 29.04
-        },
-        {
-          "text": "kalinya,",
-          "start": 29.04,
-          "end": 29.54
-        },
-        {
-          "text": "memahami",
-          "start": 29.54,
-          "end": 30.619999999999997
-        },
-        {
-          "text": "perasaan",
-          "start": 30.619999999999997,
-          "end": 31.1
-        }
-      ]
-    },
-    {
-      "start": 31.1,
-      "end": 32.82,
-      "words": [
-        {
-          "text": "seseorang",
-          "start": 31.1,
-          "end": 31.62
-        },
-        {
-          "text": "bisa",
-          "start": 31.62,
-          "end": 32.14
-        },
-        {
-          "text": "menjadi",
-          "start": 32.14,
-          "end": 32.459999999999994
-        },
-        {
-          "text": "bentuk",
-          "start": 32.459999999999994,
-          "end": 32.82
-        }
-      ]
-    },
-    {
-      "start": 32.82,
-      "end": 33.339999999999996,
-      "words": [
-        {
-          "text": "empati.",
-          "start": 32.82,
-          "end": 33.339999999999996
-        }
-      ]
-    },
-    {
-      "start": 34.199999999999996,
-      "end": 36.419999999999995,
-      "words": [
-        {
-          "text": "Tetapi,",
-          "start": 34.199999999999996,
-          "end": 34.8
-        },
-        {
-          "text": "bagaimana",
-          "start": 34.8,
-          "end": 35.72
-        },
-        {
-          "text": "jika",
-          "start": 35.72,
-          "end": 36.08
-        },
-        {
-          "text": "hal",
-          "start": 36.08,
-          "end": 36.3
-        },
-        {
-          "text": "yang",
-          "start": 36.3,
-          "end": 36.419999999999995
-        }
-      ]
-    },
-    {
-      "start": 36.419999999999995,
-      "end": 37.76,
-      "words": [
-        {
-          "text": "sama",
-          "start": 36.419999999999995,
-          "end": 36.699999999999996
-        },
-        {
-          "text": "terus",
-          "start": 36.699999999999996,
-          "end": 37.16
-        },
-        {
-          "text": "berulang?",
-          "start": 37.16,
-          "end": 37.76
-        }
-      ]
-    },
-    {
-      "start": 38.65999999999999,
-      "end": 40.54,
-      "words": [
-        {
-          "text": "Di",
-          "start": 38.65999999999999,
-          "end": 38.86
-        },
-        {
-          "text": "sinilah",
-          "start": 38.86,
-          "end": 39.339999999999996
-        },
-        {
-          "text": "kita",
-          "start": 39.339999999999996,
-          "end": 39.66
-        },
-        {
-          "text": "perlu",
-          "start": 39.66,
-          "end": 39.959999999999994
-        },
-        {
-          "text": "membedakan",
-          "start": 39.959999999999994,
-          "end": 40.54
-        }
-      ]
-    },
-    {
-      "start": 40.54,
-      "end": 42.919999999999995,
-      "words": [
-        {
-          "text": "antara",
-          "start": 40.54,
-          "end": 41.019999999999996
-        },
-        {
-          "text": "memahami",
-          "start": 41.019999999999996,
-          "end": 41.72
-        },
-        {
-          "text": "perasaan",
-          "start": 41.72,
-          "end": 42.5
-        },
-        {
-          "text": "dan",
-          "start": 42.5,
-          "end": 42.919999999999995
-        }
-      ]
-    },
-    {
-      "start": 42.919999999999995,
-      "end": 44.279999999999994,
-      "words": [
-        {
-          "text": "membiarkan",
-          "start": 42.919999999999995,
-          "end": 43.519999999999996
-        },
-        {
-          "text": "perilaku.",
-          "start": 43.519999999999996,
-          "end": 44.279999999999994
-        }
-      ]
-    },
-    {
-      "start": 44.959999999999994,
-      "end": 47.5,
-      "words": [
-        {
-          "text": "Ketika",
-          "start": 44.959999999999994,
-          "end": 45.459999999999994
-        },
-        {
-          "text": "sesuatu",
-          "start": 45.459999999999994,
-          "end": 45.94
-        },
-        {
-          "text": "terus",
-          "start": 45.94,
-          "end": 46.22
-        },
-        {
-          "text": "terjadi,",
-          "start": 46.22,
-          "end": 46.72
-        },
-        {
-          "text": "kita",
-          "start": 47.32,
-          "end": 47.5
-        }
-      ]
-    },
-    {
-      "start": 47.5,
-      "end": 49.019999999999996,
-      "words": [
-        {
-          "text": "tidak",
-          "start": 47.5,
-          "end": 47.68
-        },
-        {
-          "text": "lagi",
-          "start": 47.68,
-          "end": 48.019999999999996
-        },
-        {
-          "text": "hanya",
-          "start": 48.019999999999996,
-          "end": 48.36
-        },
-        {
-          "text": "membicarakan",
-          "start": 48.36,
-          "end": 49.019999999999996
-        }
-      ]
-    },
-    {
-      "start": 49.019999999999996,
-      "end": 50.0,
-      "words": [
-        {
-          "text": "sebuah",
-          "start": 49.019999999999996,
-          "end": 49.33999999999999
-        },
-        {
-          "text": "kesalahan.",
-          "start": 49.33999999999999,
-          "end": 50.0
-        }
-      ]
-    },
-    {
-      "start": 50.599999999999994,
-      "end": 52.599999999999994,
-      "words": [
-        {
-          "text": "Kita",
-          "start": 50.599999999999994,
-          "end": 50.84
-        },
-        {
-          "text": "mulai",
-          "start": 50.84,
-          "end": 51.3
-        },
-        {
-          "text": "melihat",
-          "start": 51.3,
-          "end": 51.65999999999999
-        },
-        {
-          "text": "sebuah",
-          "start": 51.65999999999999,
-          "end": 52.18
-        },
-        {
-          "text": "pola.",
-          "start": 52.18,
-          "end": 52.599999999999994
-        }
-      ]
-    },
-    {
-      "start": 53.18,
-      "end": 55.4,
-      "words": [
-        {
-          "text": "Dan",
-          "start": 53.18,
-          "end": 53.44
-        },
-        {
-          "text": "pola",
-          "start": 53.44,
-          "end": 54.08
-        },
-        {
-          "text": "membutuhkan",
-          "start": 54.08,
-          "end": 54.779999999999994
-        },
-        {
-          "text": "lebih",
-          "start": 54.779999999999994,
-          "end": 55.12
-        },
-        {
-          "text": "dari",
-          "start": 55.12,
-          "end": 55.4
-        }
-      ]
-    },
-    {
-      "start": 55.4,
-      "end": 56.32,
-      "words": [
-        {
-          "text": "sekadar",
-          "start": 55.4,
-          "end": 55.739999999999995
-        },
-        {
-          "text": "pengertian.",
-          "start": 55.739999999999995,
-          "end": 56.32
-        }
-      ]
-    },
-    {
-      "start": 56.32,
-      "end": 58.599999999999994,
-      "words": [
-        {
-          "text": "It",
-          "start": 56.32,
-          "end": 57.12
-        },
-        {
-          "text": "requires",
-          "start": 57.12,
-          "end": 57.62
-        },
-        {
-          "text": "accountability.",
-          "start": 57.62,
-          "end": 58.599999999999994
-        }
-      ]
-    },
-    {
-      "start": 59.4,
-      "end": 61.22,
-      "words": [
-        {
-          "text": "First",
-          "start": 59.4,
-          "end": 59.72
-        },
-        {
-          "text": "time,",
-          "start": 59.72,
-          "end": 60.019999999999996
-        },
-        {
-          "text": "understand",
-          "start": 60.459999999999994,
-          "end": 61.0
-        },
-        {
-          "text": "the",
-          "start": 61.0,
-          "end": 61.22
-        }
-      ]
-    },
-    {
-      "start": 61.22,
-      "end": 61.58,
-      "words": [
-        {
-          "text": "feeling.",
-          "start": 61.22,
-          "end": 61.58
-        }
-      ]
-    },
-    {
-      "start": 62.199999999999996,
-      "end": 64.32,
-      "words": [
-        {
-          "text": "When",
-          "start": 62.199999999999996,
-          "end": 62.419999999999995
-        },
-        {
-          "text": "it",
-          "start": 62.419999999999995,
-          "end": 62.559999999999995
-        },
-        {
-          "text": "repeats,",
-          "start": 62.559999999999995,
-          "end": 62.9
-        },
-        {
-          "text": "communicate",
-          "start": 63.58,
-          "end": 64.0
-        },
-        {
-          "text": "your",
-          "start": 64.0,
-          "end": 64.32
-        }
-      ]
-    },
-    {
-      "start": 64.32,
-      "end": 64.78,
-      "words": [
-        {
-          "text": "boundaries.",
-          "start": 64.32,
-          "end": 64.78
-        }
-      ]
-    },
-    {
-      "start": 65.36,
-      "end": 66.36,
-      "words": [
-        {
-          "text": "And",
-          "start": 65.36,
-          "end": 65.64
-        },
-        {
-          "text": "when",
-          "start": 65.64,
-          "end": 65.75999999999999
-        },
-        {
-          "text": "it",
-          "start": 65.75999999999999,
-          "end": 65.88
-        },
-        {
-          "text": "becomes",
-          "start": 65.88,
-          "end": 66.14
-        },
-        {
-          "text": "a",
-          "start": 66.14,
-          "end": 66.36
-        }
-      ]
-    },
-    {
-      "start": 66.36,
-      "end": 68.88,
-      "words": [
-        {
-          "text": "habit,",
-          "start": 66.36,
-          "end": 66.75999999999999
-        },
-        {
-          "text": "expect",
-          "start": 67.32,
-          "end": 67.67999999999999
-        },
-        {
-          "text": "accountability",
-          "start": 67.67999999999999,
-          "end": 68.52
-        },
-        {
-          "text": "and",
-          "start": 68.52,
-          "end": 68.88
-        }
-      ]
-    },
-    {
-      "start": 68.88,
-      "end": 69.46,
-      "words": [
-        {
-          "text": "change.",
-          "start": 68.88,
-          "end": 69.46
-        }
-      ]
-    },
-    {
-      "start": 69.88,
-      "end": 71.39999999999999,
-      "words": [
-        {
-          "text": "Because",
-          "start": 69.88,
-          "end": 70.28
-        },
-        {
-          "text": "empathy",
-          "start": 70.28,
-          "end": 70.88
-        },
-        {
-          "text": "should",
-          "start": 70.88,
-          "end": 71.20000000000002
-        },
-        {
-          "text": "help",
-          "start": 71.20000000000002,
-          "end": 71.39999999999999
-        }
-      ]
-    },
-    {
-      "start": 71.39999999999999,
-      "end": 73.36,
-      "words": [
-        {
-          "text": "someone",
-          "start": 71.39999999999999,
-          "end": 71.75999999999999
-        },
-        {
-          "text": "grow,",
-          "start": 71.75999999999999,
-          "end": 72.13999999999999
-        },
-        {
-          "text": "not",
-          "start": 72.7,
-          "end": 72.98
-        },
-        {
-          "text": "give",
-          "start": 72.98,
-          "end": 73.17999999999999
-        },
-        {
-          "text": "them",
-          "start": 73.17999999999999,
-          "end": 73.36
-        }
-      ]
-    },
-    {
-      "start": 73.36,
-      "end": 74.91999999999999,
-      "words": [
-        {
-          "text": "permission",
-          "start": 73.36,
-          "end": 73.8
-        },
-        {
-          "text": "to",
-          "start": 73.8,
-          "end": 74.03999999999999
-        },
-        {
-          "text": "repeat",
-          "start": 74.03999999999999,
-          "end": 74.34
-        },
-        {
-          "text": "the",
-          "start": 74.34,
-          "end": 74.6
-        },
-        {
-          "text": "same",
-          "start": 74.6,
-          "end": 74.91999999999999
-        }
-      ]
-    },
-    {
-      "start": 74.91999999999999,
-      "end": 75.36,
-      "words": [
-        {
-          "text": "mistake.",
-          "start": 74.91999999999999,
-          "end": 75.36
-        }
-      ]
-    }
-  ],
-  "audioTempoFactor": 1,
-  "alignmentSource": "Local Whisper base transcript of the selected ElevenLabs narration take",
-  "directWordMatchRatio": 0.9333333333333333,
-  "outroDuration": 3.6,
   "indonesianCaptions": [
     {
-      "start": 0.3,
-      "end": 1.78,
-      "text": "Memahami perasaan seseorang"
+      "start": 0.27,
+      "end": 1.885,
+      "text": "katanya, buat apa",
+      "segment": "beat1"
     },
     {
-      "start": 1.78,
-      "end": 3.14,
-      "text": "bukan berarti kamu harus"
+      "start": 1.91,
+      "end": 3.525,
+      "text": "ikut demonstrasi kalau masih",
+      "segment": "beat1"
     },
     {
-      "start": 3.14,
-      "end": 4.9399999999999995,
-      "text": "menoleransi perilakunya selamanya."
+      "start": 3.55,
+      "end": 5.23,
+      "text": "bisa membeli minuman mahal?",
+      "segment": "beat1"
     },
     {
-      "start": 5.54,
-      "end": 6.96,
-      "text": "Pernah lihat cerita tentang"
+      "start": 5.69,
+      "end": 8.065,
+      "text": "aku justru ingin bertanya, sejak",
+      "segment": "beat2"
     },
     {
-      "start": 6.96,
-      "end": 8.680000000000001,
-      "text": "seorang perempuan yang mendapati"
+      "start": 8.09,
+      "end": 9.765,
+      "text": "kapan kemampuan seseorang membeli",
+      "segment": "beat2"
     },
     {
-      "start": 8.680000000000001,
-      "end": 10.58,
-      "text": "pasangannya memeriksa HP-nya saat"
+      "start": 9.79,
+      "end": 11.945,
+      "text": "sesuatu menentukan apakah dia",
+      "segment": "beat2"
     },
     {
-      "start": 10.58,
-      "end": 11.3,
-      "text": "dia tidur?"
+      "start": 11.97,
+      "end": 13.99,
+      "text": "berhak menyuarakan ketidakadilan?",
+      "segment": "beat2"
     },
     {
-      "start": 12.100000000000001,
-      "end": 14.200000000000001,
-      "text": "Alih-alih marah, dia justru"
+      "start": 14.47,
+      "end": 16.69,
+      "text": "aku mungkin masih punya pekerjaan,",
+      "segment": "beat3"
     },
     {
-      "start": 14.200000000000001,
-      "end": 16.26,
-      "text": "mencoba memahami apa yang membuat"
+      "start": 16.85,
+      "end": 19.01,
+      "text": "masih bisa membeli makanan yang layak,",
+      "segment": "beat3"
     },
     {
-      "start": 16.26,
-      "end": 17.740000000000002,
-      "text": "pasangannya merasa tidak aman."
+      "start": 19.19,
+      "end": 20.725,
+      "text": "bahkan menikmati sesuatu",
+      "segment": "beat3"
     },
     {
-      "start": 18.48,
-      "end": 20.900000000000002,
-      "text": "Bahkan, dia memberikan keyakinan"
+      "start": 20.75,
+      "end": 22.465,
+      "text": "yang tidak semua orang mampu beli.",
+      "segment": "beat3"
     },
     {
-      "start": 20.900000000000002,
-      "end": 23.04,
-      "text": "bahwa hanya ada dia di hatinya."
+      "start": 22.49,
+      "end": 24.765,
+      "text": "tapi apakah itu berarti",
+      "segment": "beat4"
     },
     {
-      "start": 23.8,
-      "end": 24.44,
-      "text": "Dan jujur,"
+      "start": 24.79,
+      "end": 26.525,
+      "text": "aku harus menutup mata terhadap",
+      "segment": "beat4"
     },
     {
-      "start": 24.98,
-      "end": 26.14,
-      "text": "tidak ada yang salah dengan itu."
+      "start": 26.55,
+      "end": 28.325,
+      "text": "mereka yang bahkan kesulitan",
+      "segment": "beat4"
     },
     {
-      "start": 26.740000000000002,
-      "end": 28.740000000000002,
-      "text": "Setidaknya, untuk pertama atau"
+      "start": 28.35,
+      "end": 30.29,
+      "text": "memenuhi kebutuhan sehari-hari?",
+      "segment": "beat4"
     },
     {
-      "start": 28.740000000000002,
-      "end": 31.1,
-      "text": "kedua kalinya, memahami perasaan"
+      "start": 30.87,
+      "end": 32.985,
+      "text": "aku sadar, tidak semua orang",
+      "segment": "beat5"
     },
     {
-      "start": 31.1,
-      "end": 33.339999999999996,
-      "text": "seseorang bisa menjadi bentuk empati."
+      "start": 33.01,
+      "end": 35.09,
+      "text": "punya kesempatan untuk bersuara.",
+      "segment": "beat5"
     },
     {
-      "start": 34.199999999999996,
-      "end": 37.76,
-      "text": "Tetapi, bagaimana jika hal yang sama terus berulang?"
+      "start": 35.41,
+      "end": 37.105,
+      "text": "ada orang yang harus memilih",
+      "segment": "beat6"
     },
     {
-      "start": 38.65999999999999,
-      "end": 40.54,
-      "text": "Di sinilah kita perlu membedakan"
+      "start": 37.13,
+      "end": 39.125,
+      "text": "antara ikut menyampaikan aspirasi",
+      "segment": "beat6"
     },
     {
-      "start": 40.54,
-      "end": 42.919999999999995,
-      "text": "antara memahami perasaan dan"
+      "start": 39.15,
+      "end": 41.87,
+      "text": "atau kehilangan penghasilan hari itu.",
+      "segment": "beat6"
     },
     {
-      "start": 42.919999999999995,
-      "end": 44.279999999999994,
-      "text": "membiarkan perilaku."
+      "start": 42.01,
+      "end": 43.605,
+      "text": "ada yang terlalu sibuk bertahan",
+      "segment": "beat7"
     },
     {
-      "start": 44.959999999999994,
-      "end": 47.5,
-      "text": "Ketika sesuatu terus terjadi, kita"
+      "start": 43.63,
+      "end": 45.91,
+      "text": "hidup, sampai tidak punya waktu,",
+      "segment": "beat7"
     },
     {
-      "start": 47.5,
-      "end": 49.019999999999996,
-      "text": "tidak lagi hanya membicarakan"
+      "start": 46.17,
+      "end": 48.285,
+      "text": "tenaga, bahkan keberanian",
+      "segment": "beat7"
     },
     {
-      "start": 49.019999999999996,
-      "end": 50.0,
-      "text": "sebuah kesalahan."
+      "start": 48.31,
+      "end": 50.165,
+      "text": "untuk memperjuangkan haknya sendiri.",
+      "segment": "beat7"
     },
     {
-      "start": 50.599999999999994,
-      "end": 52.599999999999994,
-      "text": "Kita mulai melihat sebuah pola."
+      "start": 50.19,
+      "end": 52.67,
+      "text": "itulah mengapa aku percaya,",
+      "segment": "beat8"
     },
     {
-      "start": 53.18,
-      "end": 56.32,
-      "text": "Dan pola membutuhkan lebih dari sekadar pengertian."
+      "start": 53.03,
+      "end": 54.625,
+      "text": "tidak semua orang turun ke jalan",
+      "segment": "beat8"
     },
     {
-      "start": 56.32,
-      "end": 58.599999999999994,
-      "text": "Perlu tanggung jawab."
+      "start": 54.65,
+      "end": 56.57,
+      "text": "hanya untuk dirinya sendiri.",
+      "segment": "beat8"
     },
     {
-      "start": 59.4,
-      "end": 61.58,
-      "text": "Saat pertama kali, pahami perasaannya."
+      "start": 56.95,
+      "end": 58.965,
+      "text": "terkadang, aku memperjuangkan",
+      "segment": "beat9"
     },
     {
-      "start": 62.199999999999996,
-      "end": 64.78,
-      "text": "Saat terulang, sampaikan batasanmu."
+      "start": 58.99,
+      "end": 61.225,
+      "text": "sesuatu yang mungkin tidak pernah bisa",
+      "segment": "beat9"
     },
     {
-      "start": 65.36,
-      "end": 69.46,
-      "text": "Saat menjadi kebiasaan, harapkan tanggung jawab dan perubahan."
+      "start": 61.25,
+      "end": 63.265,
+      "text": "diperjuangkan oleh orang yang paling",
+      "segment": "beat9"
     },
     {
-      "start": 69.88,
-      "end": 72.13999999999999,
-      "text": "Karena empati seharusnya membantu seseorang tumbuh,"
+      "start": 63.29,
+      "end": 65.09,
+      "text": "membutuhkan perubahan itu.",
+      "segment": "beat9"
     },
     {
-      "start": 72.7,
-      "end": 75.36,
-      "text": "bukan memberinya izin mengulangi kesalahan yang sama."
+      "start": 65.29,
+      "end": 67.765,
+      "text": "karena kepedulian tidak harus lahir",
+      "segment": "beat10"
+    },
+    {
+      "start": 67.79,
+      "end": 69.35,
+      "text": "dari penderitaan yang sama.",
+      "segment": "beat10"
     }
-  ]
+  ],
+  "outroStart": 69.10000000000001,
+  "duration": 72.7,
+  "version": "V20"
 }

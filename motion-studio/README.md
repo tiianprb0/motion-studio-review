@@ -1,9 +1,5 @@
-# Source Remotion
+# Source terbaru
 
-Baca ../README.md dan ../profile/CREATIVE-BRIEF.md. Ini snapshot source produksi yang tersedia, bukan klaim hasil refaktor arsitektur baru.
+Hanya satu implementasi di src/film/. Character.tsx dan ReferenceFace.tsx menggambar karakter; HI.tsx, Scenes.tsx dan BeatGraphics.tsx menggambar latar/adegan; Elements.tsx berisi outro; SocialIcons.tsx ikon sosial. Root.tsx hanya composition MotionStudio.
 
-Karakter: src/v20/Character.tsx dan ReferenceFace.tsx. Latar/adegan: HI.tsx, Scenes.tsx dan BeatGraphics.tsx. Outro: Elements.tsx; ikon: SocialIcons.tsx. Entry point: src/index.ts dan Root.tsx. Identitas visual historis tersedia pada source versi lain yang didaftarkan Root.
-
-Jalankan npm ci lalu npm run studio. Renderer versi: node scripts/render-v20.mjs. npm run render dan voice adalah entri historis; gunakan renderer versi, generator voice tidak disertakan. Wrapper Chrome memakai lokasi macOS. Audio runtime sudah disertakan.
-
-Untuk cerita baru gunakan projects/<slug>/v1; perakitan composition/dependensi perlu dilakukan saat proyek dibuat. Tidak ada folder arsip, kredensial, cache atau video output di snapshot ini.
+Jalankan npm ci lalu npm run studio atau npm run render. Chrome renderer memakai lokasi macOS dan mungkin perlu disesuaikan. Kontrak kreatif: ../profile/CREATIVE-BRIEF.md. Belum ada refaktor arsitektur master-world baru atau pemilihan suara Yan dalam pembaruan ini.

@@ -1,17 +1,13 @@
-# Motion Studio — konfigurasi dan source terbaru
+# Motion Studio — hanya versi terbaru
 
-Pembaruan 1 November 2026. Isi lama pada branch main diganti dengan snapshot terbaru tanpa folder arsip. Riwayat Git tetap tersedia.
+Folder versi lama dan dokumen review lama sudah dihapus dari isi branch main. Tidak ada arsip atau kumpulan src/v7–v20 dalam snapshot ini.
 
-## Isi
-- profile/CREATIVE-BRIEF.md: seluruh kesepakatan interview terbaru.
-- profile/SOUL.md dan profile/skills/: persona dan instruksi kerja Hermes.
-- profile/ACTIVE-WORKSPACE.json: penunjuk source dan audio yang tersedia.
-- profile/VOICE-PROFILES.json: aturan narator; ID Yan masih menunggu pemilihan.
-- motion-studio/: source Remotion, karakter, latar, adegan, outro, audio, logo, font, package/lock dan script render.
+- profile/: kontrak interview, persona, skill, status dan aturan suara terbaru.
+- motion-studio/src/film/: satu implementasi terbaru untuk karakter, latar, adegan, caption dan outro.
+- motion-studio/src/Root.tsx: hanya composition MotionStudio.
+- motion-studio/public/: hanya narasi yang digunakan, logo dan font.
+- motion-studio/scripts/render.mjs: hanya renderer implementasi terbaru.
 
-## Perubahan terakhir
-Master World Canvas per lokasi/waktu, camera beat berkesinambungan, riset setiap naskah, tokoh tetap Naya/Yan, subtitle hanya tiga posisi kiri tanpa kolom kosong, identitas/outro dipertahankan, template warna/nada narasi, screenshot beberapa scene dan moving proof. Cerita baru masuk projects/<slug>/v1; revisi dalam proyek sama.
+Dari motion-studio/: npm ci, lalu npm run studio atau npm run render. Wrapper Chrome masih memakai lokasi macOS. Tidak ada kredensial, dependency terpasang, cache atau output video.
 
-Kontrak/skill telah diperbarui. Source yang disertakan adalah snapshot produksi yang tersedia, dengan versi yang dibutuhkan entry point lama; belum ditulis ulang menjadi implementasi Master World Canvas baru. V20 masih kandidat, bukan otomatis disetujui. Tidak ada proyek cerita baru atau render/audio baru untuk pembaruan ini.
-
-Dari motion-studio/ jalankan npm ci lalu npm run studio. Script render versi berada di scripts/; renderer Chrome mengandung asumsi macOS. Tidak menyertakan node_modules, bundle/cache, preview/output video, arsip, config provider, API key, token atau kredensial. Skill shotcraft/workbench merujuk upstream terpisah; source vendor tidak dibundel. Ini salinan review, bukan ekspor seluruh konfigurasi login Hermes.
+Konfigurasi kreatif mengikuti interview. Source terbaru dipertahankan tanpa mengklaim sudah direfaktor otomatis ke arsitektur master-world baru. Suara Yan belum dipilih. Riwayat commit Git tetap tersedia.

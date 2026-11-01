@@ -1,3 +1,3 @@
 # Status source
 
-Source saat ini berada di motion-studio/. Composition KepedulianV20 masih kandidat menunggu feedback. Source tidak otomatis berubah karena kontrak interview diperbarui. Aturan aktif ada di CREATIVE-BRIEF.md. Suara Yan belum dipilih.
+Hanya implementasi terbaru yang tersedia dalam motion-studio/src/film/. Composition MotionStudio, audio public/narration.mp3 dan renderer scripts/render.mjs. Ini kandidat produksi terbaru, belum persetujuan kreatif. Kontrak interview sudah disimpan; refaktor master-world baru dan pemilihan suara Yan belum dilakukan.
