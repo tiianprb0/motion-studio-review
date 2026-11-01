@@ -1,0 +1,8 @@
+{
+  "repository": "https://github.com/Vincentwei1021/video-shotcraft",
+  "commit": "1266a3ec4831289c4d893d42dd5102723658039a",
+  "retrievedDate": "2026-11-01",
+  "license": "Apache-2.0 for code/docs; media licenses remain separate",
+  "upstreamEntrypoint": "assets/vendor/video-shotcraft/UPSTREAM-SKILL.md",
+  "adaptation": "Original custom Hermes instructions; upstream entrypoint renamed to avoid automatic discovery as another profile skill. No upstream scripts executed."
+}

@@ -1,0 +1,6 @@
+{
+  "main_model": "ryzumi/deepseek-v4.1-flash-1017",
+  "provider": "custom",
+  "route": "local router",
+  "scope": "Model identifier only; full config and credentials excluded."
+}

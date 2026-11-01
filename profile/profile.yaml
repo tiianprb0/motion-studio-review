@@ -1,0 +1,8 @@
+display_name: Motion Studio
+description: Studio video motion 2D dengan Remotion, narasi ElevenLabs, 
+  subtitle, pratinjau, dan ekspor TikTok.
+description_auto: false
+ui_meta:
+  hermes-bots:
+    title: Motion Studio
+    description: Bikin dan revisi video motion 2D dari brief sampai MP4.

@@ -1,0 +1,15 @@
+{
+  "installedSkills": [
+    "motion-studio",
+    "remotion-shotcraft",
+    "remotion-motion-review",
+    "remotion-workbench"
+  ],
+  "upstreamCommit": "1266a3ec4831289c4d893d42dd5102723658039a",
+  "backup": "/Users/mac/Documents/Codex/2026-10-02/referenced-chatgpt-conversation-this-is-an/hermes-local/data/profiles/motion-studio/backups/skills-shotcraft-20261101-004115",
+  "projectFilesVerifiedUnchanged": 53,
+  "renderExecuted": false,
+  "audioGenerated": false,
+  "workbenchStarted": false,
+  "dependenciesInstalled": false
+}
