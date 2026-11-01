@@ -1,0 +1,19 @@
+{
+  "updated": "2026-11-01",
+  "workspace": "../motion-studio",
+  "project_id": "kepedulian-bundaran-hi",
+  "layout": "legacy-archived",
+  "legacy_version_label": "V20",
+  "status": "candidate-awaiting-feedback",
+  "composition": "KepedulianV20",
+  "source": "src/v20/Film.tsx",
+  "timing": "src/timing-v20.json",
+  "audio": "public/narration-v19.mp3",
+  "renderer": "scripts/render-v20.mjs",
+  "migration_performed": false,
+  "next_new_story_layout": "projects/<slug>/v1",
+  "creative_contract": "CREATIVE-BRIEF.md",
+  "project_root": ".",
+  "source_migration_performed": false,
+  "folder_relocation_performed": true
+}

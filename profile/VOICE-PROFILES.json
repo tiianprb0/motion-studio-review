@@ -1,0 +1,37 @@
+{
+  "updated": "2026-11-01",
+  "selection": "one narrator per script, selected by agent for topic",
+  "delivery_tones": [
+    "normal",
+    "angry",
+    "sarcastic"
+  ],
+  "character_dialogue_voiceover": false,
+  "naya": {
+    "preserve_existing_voice": true,
+    "historical_name": "Leya",
+    "historical_voice_id": "hAiGVB2GdXVPlylkAP9C",
+    "verify_against_active_cache_before_generation": true,
+    "personality": [
+      "curious",
+      "likes giving examples",
+      "irritable"
+    ]
+  },
+  "yan": {
+    "voice_id": null,
+    "status": "selection_pending",
+    "desired_voice": [
+      "young male",
+      "calm",
+      "casual",
+      "slightly shy"
+    ],
+    "selection_policy": "Choose an actually available voice at first authorized Yan production, persist ID and metadata, then reuse consistently. No paid audition as part of configuration update.",
+    "personality": [
+      "calm",
+      "likes learning",
+      "quiet"
+    ]
+  }
+}

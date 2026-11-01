@@ -2,6 +2,9 @@
 name: remotion-workbench
 description: Prepare or integrate the Video Shotcraft browser timeline with an existing Remotion project when editable shots, captions, transitions and audio tracks are requested.
 ---
+# Current creative routing
+Read ../../CREATIVE-BRIEF.md first; its master-world, project isolation, left-only subtitle, narrator and character rules override historical references below. Workbench integration is only for a requested editable timeline.
+
 
 # Remotion Workbench integration
 Read ../motion-studio/SKILL.md. Bundled Workbench source is ../remotion-shotcraft/assets/vendor/video-shotcraft/workbench/. Read upstream references/workbench.md, workbench/README.md if present, and actual scripts/open.mjs before setup. The library being installed does not mean the active video is integrated.

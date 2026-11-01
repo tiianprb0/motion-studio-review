@@ -1,21 +1,17 @@
-# less.certain — Motion Studio review packet
+# Motion Studio — konfigurasi dan source terbaru
 
-Dokumen aktual untuk penilaian independen terhadap profil, skill dan alur storyboard Motion Studio Hermes.
-
-## Update terakhir — 1 November 2026
-
-Source Remotion aktual kini tersedia di [motion-studio/](motion-studio/): kode karakter, latar, adegan, caption dan outro, serta logo, font, audio, konfigurasi proyek dan script render. Baca [catatan update terakhir](UPDATE-TERAKHIR.md) dan [panduan source](motion-studio/README.md). V20 adalah kandidat terbaru; V18 tetap acuan desain yang disetujui. MANIFEST.json di root merekam paket ZIP awal; manifest snapshot source ada di motion-studio/UPLOAD-MANIFEST.json.
+Pembaruan 1 November 2026. Isi lama pada branch main diganti dengan snapshot terbaru tanpa folder arsip. Riwayat Git tetap tersedia.
 
 ## Isi
-- profile/: SOUL, identitas profil, brief, status kerja dan ringkasan model tanpa konfigurasi rahasia.
-- skills/: skill utama serta panduan shotcraft, motion review dan workbench, termasuk referensi editorial lokal.
-- project-notes/: naskah, storyboard dan riset yang relevan.
+- profile/CREATIVE-BRIEF.md: seluruh kesepakatan interview terbaru.
+- profile/SOUL.md dan profile/skills/: persona dan instruksi kerja Hermes.
+- profile/ACTIVE-WORKSPACE.json: penunjuk source dan audio yang tersedia.
+- profile/VOICE-PROFILES.json: aturan narator; ID Yan masih menunggu pemilihan.
+- motion-studio/: source Remotion, karakter, latar, adegan, outro, audio, logo, font, package/lock dan script render.
 
-## Konteks penilaian
-Pengguna menyetujui arah video V18 dan meminta menyimpannya ke profil/skill. Video demonstrasi V19 kemudian ditolak karena visual terlalu lama diam dan konteks isu tidak cukup dipahami. Pengguna meminta perkembangan visual setiap tarikan napas/unit makna, anatomi serta komposisi yang masuk akal, dan riset aksi Greenpeace di Bundaran HI. Pengguna juga menolak konsep latar realistis karena berbeda dari gaya flat karakter/video. V20 adalah kandidat revisi, bukan gaya yang sudah disetujui.
+## Perubahan terakhir
+Master World Canvas per lokasi/waktu, camera beat berkesinambungan, riset setiap naskah, tokoh tetap Naya/Yan, subtitle hanya tiga posisi kiri tanpa kolom kosong, identitas/outro dipertahankan, template warna/nada narasi, screenshot beberapa scene dan moving proof. Cerita baru masuk projects/<slug>/v1; revisi dalam proyek sama.
 
-## Pertanyaan untuk reviewer
-Nilai secara mandiri: apakah instruksi cukup jelas, konsisten, mudah ditemukan dan bisa diterapkan? Apakah storyboard menghubungkan narasi dengan aksi visual yang tepat? Apa kekurangan arsitektur skill dan proses review kreatifnya? Bedakan temuan berdasarkan dokumen dari dugaan mengenai implementasi/render. Jelaskan perubahan prioritas beserta alasan dan contoh konkret.
+Kontrak/skill telah diperbarui. Source yang disertakan adalah snapshot produksi yang tersedia, dengan versi yang dibutuhkan entry point lama; belum ditulis ulang menjadi implementasi Master World Canvas baru. V20 masih kandidat, bukan otomatis disetujui. Tidak ada proyek cerita baru atau render/audio baru untuk pembaruan ini.
 
-## Batas paket ZIP awal
-Tidak memuat kode Remotion, video output, audio, gambar/aset media, dependensi, cache API/OAuth, token atau konfigurasi login. Paket ini untuk review dokumen, bukan untuk menjalankan ulang render. Beberapa referensi menunjuk source/aset yang memang tidak disertakan. Dokumentasi historis yang masih ada dipertahankan untuk menilai konsistensinya; tautan path lokal tidak akan dapat dibuka di komputer reviewer.
+Dari motion-studio/ jalankan npm ci lalu npm run studio. Script render versi berada di scripts/; renderer Chrome mengandung asumsi macOS. Tidak menyertakan node_modules, bundle/cache, preview/output video, arsip, config provider, API key, token atau kredensial. Skill shotcraft/workbench merujuk upstream terpisah; source vendor tidak dibundel. Ini salinan review, bukan ekspor seluruh konfigurasi login Hermes.
