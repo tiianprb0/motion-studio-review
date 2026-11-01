@@ -1,3 +1,11 @@
+## ElevenLabs API — terverifikasi 1 November 2026
+
+Jalur narasi aktif adalah API langsung ElevenLabs. Naya menggunakan Leya (`hAiGVB2GdXVPlylkAP9C`); Yan menggunakan Abi - Calm, Breathy and Gravelly (`EOiisOG9mUn5iXbtXJuL`), pilihan pengguna. Pemeriksaan akses API untuk kedua suara berhasil menurut hasil setup yang dibagikan pengguna. Ini verifikasi akses, bukan audisi kualitas; tidak ada audio dibuat saat pemeriksaan.
+
+Pilih satu narator per naskah. Pembawaan normal/marah/sarkastis diperbolehkan untuk keduanya; dialog karakter tetap teks dan gerak tanpa voice-over. Model normal: `eleven_flash_v2_5`; nada marah/sarkastis: `eleven_v3`. Revisi visual tetap memakai rekaman/timing yang sudah ada. Creative MCP bukan jalur narasi default; jangan fallback atau mengganti suara berbayar otomatis.
+
+API key disimpan hanya pada profil Hermes lokal. Repo ini hanya berisi voice ID dan pengaturan nonrahasia; tidak berisi API key, file .env, token, atau salinan config provider. Voice ID bukan API key.
+
 # Kesepakatan kreatif Motion Studio — 1 November 2026
 
 Dokumen ini adalah sumber aturan aktif dari interview pengguna. Menggantikan aturan lama yang bertentangan pada profil, brief, skill, referensi dan catatan proyek. Riwayat persetujuan desain tetap menjadi bukti visual, bukan instruksi untuk menyalin cerita/nomor versi. Jawaban interview yang kosong bukan persetujuan atas default baru.

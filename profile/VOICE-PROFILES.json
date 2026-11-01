@@ -16,22 +16,41 @@
       "curious",
       "likes giving examples",
       "irritable"
-    ]
+    ],
+    "voice_id": "hAiGVB2GdXVPlylkAP9C",
+    "name": "Leya",
+    "api_access_status": "verified_by_user_setup"
   },
   "yan": {
-    "voice_id": null,
-    "status": "selection_pending",
+    "voice_id": "EOiisOG9mUn5iXbtXJuL",
+    "status": "api_access_verified_by_user_setup",
     "desired_voice": [
       "young male",
       "calm",
       "casual",
       "slightly shy"
     ],
-    "selection_policy": "Choose an actually available voice at first authorized Yan production, persist ID and metadata, then reuse consistently. No paid audition as part of configuration update.",
+    "selection_policy": "User explicitly selected Abi with this voice ID. Verify API access; preserve this ID and do not substitute automatically.",
     "personality": [
       "calm",
       "likes learning",
       "quiet"
-    ]
+    ],
+    "name": "Abi - Calm, Breathy and Gravelly",
+    "selection_source": "User selection in chat on 2026-11-01",
+    "auditioned": false
+  },
+  "provider": "elevenlabs_direct_api",
+  "credential_env": "ELEVENLABS_API_KEY",
+  "model_policy": {
+    "normal": "eleven_flash_v2_5",
+    "angry": "eleven_v3",
+    "sarcastic": "eleven_v3"
+  },
+  "api_verification": {
+    "date": "2026-11-01",
+    "evidence": "User reported successful read-only API check for Leya and Abi",
+    "audio_generated": false,
+    "quality_audition_completed": false
   }
 }
