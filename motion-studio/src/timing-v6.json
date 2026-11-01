@@ -1,0 +1,379 @@
+{
+ "fps": 30,
+ "duration": 78.2333,
+ "hasVoice": true,
+ "audioLead": 0.3,
+ "audioSeconds": 77.36,
+ "audioTempoFactor": 1.0,
+ "alignmentSource": "Local Whisper base word timing + editorial Indonesian caption units",
+ "directWordMatchRatio": 0.927,
+ "voice": "hAiGVB2GdXVPlylkAP9C",
+ "voiceName": "Leya",
+ "narrationFile": "narration-v6.mp3",
+ "segments": [
+  {
+   "id": "hook1",
+   "title": [
+    "Pernah nggak,",
+    "kamu bertengkar",
+    "dengan pasanganmu?"
+   ],
+   "text": "Pernah nggak, kamu bertengkar dengan pasanganmu.",
+   "start": 0.0,
+   "end": 3.44
+  },
+  {
+   "id": "hook2",
+   "title": [
+    "Besoknya,",
+    "tidak ada maaf."
+   ],
+   "text": "Besoknya, dia nggak bilang maaf. Bahkan nggak membahas pertengkaran kalian semalam.",
+   "start": 3.44,
+   "end": 9.360000000000001
+  },
+  {
+   "id": "hook3",
+   "title": [
+    "Tiba-tiba:",
+    "makanan favoritmu."
+   ],
+   "text": "Tapi tiba-tiba, dia membelikan makanan kesukaanmu. Atau mungkin, dia mengerjakan sesuatu yang biasanya kamu lakukan. Seolah-olah tidak terjadi apa-apa.",
+   "start": 9.360000000000001,
+   "end": 20.9
+  },
+  {
+   "id": "dev1",
+   "title": [
+    "Mungkin kamu pikir:",
+    "dia gengsi."
+   ],
+   "text": "Awalnya, mungkin kamu berpikir dia terlalu gengsi untuk meminta maaf.",
+   "start": 20.9,
+   "end": 26.14
+  },
+  {
+   "id": "dev2",
+   "title": [
+    "Tapi pernah",
+    "kamu pikirkan?"
+   ],
+   "text": "Tapi pernahkah kamu berpikir, mungkin dia memang nggak terbiasa mengucapkan kata itu?",
+   "start": 26.14,
+   "end": 32.459999999999994
+  },
+  {
+   "id": "dev3",
+   "title": [
+    "Sejak kecil,",
+    "tidak ada maaf."
+   ],
+   "text": "Mungkin sejak kecil, setiap kali ada pertengkaran di rumahnya, nggak ada yang saling meminta maaf. Semuanya hanya kembali seperti biasa.",
+   "start": 32.459999999999994,
+   "end": 41.839999999999996
+  },
+  {
+   "id": "dev4",
+   "title": [
+    "Marah hari ini.",
+    "Sarapan besok."
+   ],
+   "text": "Seseorang marah hari ini, lalu besok sudah menyiapkan sarapan seperti tidak terjadi apa-apa.",
+   "start": 41.839999999999996,
+   "end": 48.459999999999994
+  },
+  {
+   "id": "dev5",
+   "title": [
+    "Perhatian,",
+    "bukan kata."
+   ],
+   "text": "Tanpa disadari, dia belajar bahwa perhatian adalah cara untuk memperbaiki hubungan.",
+   "start": 48.459999999999994,
+   "end": 54.98
+  },
+  {
+   "id": "shift1",
+   "title": [
+    "Bukan berarti",
+    "caranya benar."
+   ],
+   "text": "Bukan berarti caranya selalu benar.",
+   "start": 54.98,
+   "end": 56.99999999999999
+  },
+  {
+   "id": "shift2",
+   "title": [
+    "Kamu tetap berhak",
+    "mendengar maaf."
+   ],
+   "text": "Karena kamu tetap berhak mendengar kata maaf ketika seseorang menyakitimu.",
+   "start": 56.99999999999999,
+   "end": 62.48
+  },
+  {
+   "id": "shift3",
+   "title": [
+    "Melihat dengan",
+    "cara berbeda."
+   ],
+   "text": "Tapi memahami latar belakangnya mungkin membuatmu melihat perilakunya dengan cara berbeda.",
+   "start": 62.48,
+   "end": 69.10000000000001
+  },
+  {
+   "id": "close1",
+   "title": [],
+   "text": "Sometimes, people don’t know how to express what they’ve never been taught.",
+   "start": 69.10000000000001,
+   "end": 73.02
+  },
+  {
+   "id": "close2",
+   "title": [
+    "Memahami",
+    "bukan menerima."
+   ],
+   "text": "And understanding that doesn’t mean you have to accept everything.",
+   "start": 73.02,
+   "end": 77.68333333333334
+  }
+ ],
+ "indonesianCaptions": [
+  {
+   "start": 0.26,
+   "end": 2.28,
+   "text": "Pernah nggak, kamu bertengkar",
+   "segment": "hook1"
+  },
+  {
+   "start": 2.3,
+   "end": 3.22,
+   "text": "dengan pasanganmu?",
+   "segment": "hook1"
+  },
+  {
+   "start": 3.49,
+   "end": 5.84,
+   "text": "Besoknya, dia nggak bilang maaf.",
+   "segment": "hook2"
+  },
+  {
+   "start": 5.86,
+   "end": 7.56,
+   "text": "Bahkan nggak membahas",
+   "segment": "hook2"
+  },
+  {
+   "start": 7.58,
+   "end": 8.94,
+   "text": "pertengkaran kalian semalam.",
+   "segment": "hook2"
+  },
+  {
+   "start": 9.41,
+   "end": 12.18,
+   "text": "Tapi tiba-tiba, dia membelikan",
+   "segment": "hook3"
+  },
+  {
+   "start": 12.2,
+   "end": 14.26,
+   "text": "makanan kesukaanmu.",
+   "segment": "hook3"
+  },
+  {
+   "start": 14.28,
+   "end": 16.02,
+   "text": "Atau mengerjakan sesuatu",
+   "segment": "hook3"
+  },
+  {
+   "start": 16.04,
+   "end": 17.02,
+   "text": "yang biasanya kamu lakukan.",
+   "segment": "hook3"
+  },
+  {
+   "start": 17.04,
+   "end": 20.22,
+   "text": "Seolah-olah tidak terjadi apa-apa.",
+   "segment": "hook3"
+  },
+  {
+   "start": 20.95,
+   "end": 23.74,
+   "text": "Awalnya, mungkin kamu pikir",
+   "segment": "dev1"
+  },
+  {
+   "start": 23.76,
+   "end": 25.7,
+   "text": "dia terlalu gengsi minta maaf.",
+   "segment": "dev1"
+  },
+  {
+   "start": 26.19,
+   "end": 29.28,
+   "text": "Tapi pernahkah kamu berpikir,",
+   "segment": "dev2"
+  },
+  {
+   "start": 29.3,
+   "end": 30.2,
+   "text": "mungkin dia memang",
+   "segment": "dev2"
+  },
+  {
+   "start": 30.22,
+   "end": 32.0,
+   "text": "nggak terbiasa mengucapkannya?",
+   "segment": "dev2"
+  },
+  {
+   "start": 32.51,
+   "end": 35.28,
+   "text": "Mungkin sejak kecil, setiap ada",
+   "segment": "dev3"
+  },
+  {
+   "start": 35.3,
+   "end": 37.12,
+   "text": "pertengkaran di rumahnya,",
+   "segment": "dev3"
+  },
+  {
+   "start": 37.14,
+   "end": 38.76,
+   "text": "tak ada yang saling minta maaf.",
+   "segment": "dev3"
+  },
+  {
+   "start": 38.78,
+   "end": 41.36,
+   "text": "Semuanya kembali seperti biasa.",
+   "segment": "dev3"
+  },
+  {
+   "start": 41.89,
+   "end": 43.66,
+   "text": "Seseorang marah hari ini,",
+   "segment": "dev4"
+  },
+  {
+   "start": 43.68,
+   "end": 45.38,
+   "text": "lalu besok sudah menyiapkan",
+   "segment": "dev4"
+  },
+  {
+   "start": 45.4,
+   "end": 47.76,
+   "text": "sarapan seolah tak terjadi apa-apa.",
+   "segment": "dev4"
+  },
+  {
+   "start": 48.51,
+   "end": 50.9,
+   "text": "Tanpa disadari, dia belajar",
+   "segment": "dev5"
+  },
+  {
+   "start": 50.92,
+   "end": 52.86,
+   "text": "bahwa perhatian adalah cara",
+   "segment": "dev5"
+  },
+  {
+   "start": 52.88,
+   "end": 54.58,
+   "text": "untuk memperbaiki hubungan.",
+   "segment": "dev5"
+  },
+  {
+   "start": 55.03,
+   "end": 56.44,
+   "text": "Bukan berarti caranya",
+   "segment": "shift1"
+  },
+  {
+   "start": 56.46,
+   "end": 57.24,
+   "text": "selalu benar.",
+   "segment": "shift1"
+  },
+  {
+   "start": 57.26,
+   "end": 59.06,
+   "text": "Karena kamu tetap berhak",
+   "segment": "shift2"
+  },
+  {
+   "start": 59.08,
+   "end": 59.8,
+   "text": "mendengar kata maaf",
+   "segment": "shift2"
+  },
+  {
+   "start": 59.82,
+   "end": 62.1,
+   "text": "ketika seseorang menyakitimu.",
+   "segment": "shift2"
+  },
+  {
+   "start": 62.53,
+   "end": 65.52,
+   "text": "Tapi memahami latar belakangnya",
+   "segment": "shift3"
+  },
+  {
+   "start": 65.54,
+   "end": 66.46,
+   "text": "mungkin membuatmu melihat",
+   "segment": "shift3"
+  },
+  {
+   "start": 66.48,
+   "end": 68.5,
+   "text": "perilakunya dengan cara berbeda.",
+   "segment": "shift3"
+  },
+  {
+   "start": 69.15,
+   "end": 71.3,
+   "text": "Sometimes, people don't know",
+   "segment": "close1"
+  },
+  {
+   "start": 71.32,
+   "end": 72.46,
+   "text": "how to express what they've",
+   "segment": "close1"
+  },
+  {
+   "start": 72.48,
+   "end": 73.26,
+   "text": "never been taught.",
+   "segment": "close1"
+  },
+  {
+   "start": 73.28,
+   "end": 75.08,
+   "text": "Dan memahami itu",
+   "segment": "close2"
+  },
+  {
+   "start": 75.1,
+   "end": 76.18,
+   "text": "bukan berarti kamu harus",
+   "segment": "close2"
+  },
+  {
+   "start": 76.2,
+   "end": 77.42,
+   "text": "menerima semuanya.",
+   "segment": "close2"
+  }
+ ]
+}

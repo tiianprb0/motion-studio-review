@@ -1,0 +1,13 @@
+import React from 'react';
+import {AbsoluteFill,Audio,Img,Sequence,staticFile,useCurrentFrame,delayRender,continueRender} from 'remotion';
+import timing from '../timing-v19.json';
+import {P,ramp} from './Character';
+import {Caption} from './Captions';
+import {Outro} from './Elements';
+import {Scene} from './Scenes';
+export const OUTRO_START=Math.round(timing.outroStart*30),TOTAL_FRAMES=Math.round(timing.duration*30);
+export const SHOTS=timing.segments.slice(0,10).map((s,i)=>({id:i+1,start:Math.round(s.start*30),end:i===9?OUTRO_START:Math.round(timing.segments[i+1].start*30),location:'scene'+i,variant:'story'})).concat([{id:11,start:OUTRO_START,end:TOTAL_FRAMES,location:'brand',variant:'outro'}]);
+export function World({frame}:{frame:number}){if(frame>=OUTRO_START)return <Outro f={frame-OUTRO_START}/>;const index=Math.max(0,SHOTS.findIndex(s=>frame>=s.start&&frame<s.end)),shot=SHOTS[index];const wipe=SHOTS.slice(1).find(s=>frame>=s.start-10&&frame<s.start+11);const scene=<Scene index={index} frame={frame} start={shot.start} end={shot.end}/>;if(!wipe)return scene;const tx=ramp(frame,wipe.start-10,wipe.start+10,1140,-1340),color=wipe.id%2?P.ink:'#C9D4BC';return <>{scene}<g transform={`translate(${tx} 0)`}><rect x="-40" y="-100" width="1320" height="2200" fill={color}/><path d="M0-100V2100M40-100V2100" stroke={P.gold} strokeWidth="9" opacity=".5"/></g></>}
+export const getCue=(frame:number)=>timing.indonesianCaptions.findIndex(c=>frame/30>=c.start&&frame/30<c.end);
+export const AuditFrame=({frame}:{frame:number})=>{const i=getCue(frame);return <div style={{position:'relative',width:1080,height:1920,overflow:'hidden'}}><svg width="1080" height="1920" viewBox="0 0 1080 1920"><World frame={frame}/>{i>=0&&frame<OUTRO_START&&<Caption cue={{...timing.indonesianCaptions[i],segment:''}} index={i} frame={frame}/>}</svg></div>};
+export const FilmV19:React.FC=()=>{const frame=useCurrentFrame();React.useLayoutEffect(()=>{const h=delayRender('Complete SVG paint');let r1=0,r2=0;const t=setTimeout(()=>{r1=requestAnimationFrame(()=>{r2=requestAnimationFrame(()=>continueRender(h))})},70);return()=>{clearTimeout(t);cancelAnimationFrame(r1);cancelAnimationFrame(r2);continueRender(h)}},[frame]);return <AbsoluteFill style={{background:P.paper}}><AuditFrame key={frame} frame={frame}/>{frame<OUTRO_START&&<Img src={staticFile('less-certain-logo.png')} style={{position:'absolute',right:78,top:66,width:156,height:58,objectFit:'contain',filter:frame<SHOTS[0].end?'brightness(0) invert(1)':undefined}}/>}<Sequence from={Math.round(timing.audioLead*30)}><Audio src={staticFile(timing.narrationFile)}/></Sequence></AbsoluteFill>};

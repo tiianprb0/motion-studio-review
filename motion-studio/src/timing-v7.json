@@ -1,0 +1,294 @@
+{
+  "fps": 30,
+  "duration": 70.83333333333333,
+  "hasVoice": true,
+  "audioLead": 0.3,
+  "audioSeconds": 70.16,
+  "audioTempoFactor": 1,
+  "alignmentSource": "Local Whisper base word timing + explicit source phrase mapping; English ending translated editorially",
+  "directWordMatchRatio": 0.885,
+  "voice": "hAiGVB2GdXVPlylkAP9C",
+  "voiceName": "Leya",
+  "narrationFile": "narration-v7.mp3",
+  "segments": [
+    {
+      "id": "habit",
+      "title": "Satu kebiasaan.",
+      "text": "pacarku punya satu kebiasaan yang selalu membuatku kesal.",
+      "start": 0,
+      "end": 4.6
+    },
+    {
+      "id": "silence",
+      "title": "Setelah bertengkar.",
+      "text": "setiap kali kami bertengkar, dia nggak pernah bilang maaf.",
+      "start": 4.6,
+      "end": 8.540000000000001
+    },
+    {
+      "id": "care",
+      "title": "Sudah makan?",
+      "text": "tapi besoknya, dia tiba-tiba bertanya apakah aku sudah makan, membelikan makanan kesukaanku, atau melakukan hal-hal kecil untukku.",
+      "start": 8.540000000000001,
+      "end": 17.88
+    },
+    {
+      "id": "pride",
+      "title": "Kupikir, gengsi.",
+      "text": "awalnya aku pikir dia cuma gengsi.",
+      "start": 17.88,
+      "end": 21.1
+    },
+    {
+      "id": "home",
+      "title": "Di rumahnya dulu.",
+      "text": "sampai aku tahu, di rumahnya dulu, nggak ada yang terbiasa meminta maaf.",
+      "start": 21.1,
+      "end": 26.8
+    },
+    {
+      "id": "martabak",
+      "title": "Marah. Lalu martabak.",
+      "text": "setelah bapaknya marah besar, besoknya mungkin sudah ada martabak di meja.",
+      "start": 26.8,
+      "end": 32.02
+    },
+    {
+      "id": "peace",
+      "title": "Begitulah mereka berdamai.",
+      "text": "buat keluarganya, itulah cara mereka kembali berdamai.",
+      "start": 32.02,
+      "end": 36.04
+    },
+    {
+      "id": "understand",
+      "title": "Aku mulai mengerti.",
+      "text": "akhirnya aku mengerti, mungkin dia bukan nggak mau meminta maaf. dia hanya mengenal cara yang berbeda untuk menunjukkannya.",
+      "start": 36.04,
+      "end": 45.12
+    },
+    {
+      "id": "again",
+      "title": "Kali ini, aku bicara.",
+      "text": "jadi, suatu hari ketika dia kembali melakukan hal kecil untukku setelah bertengkar, aku bilang,",
+      "start": 45.12,
+      "end": 52.1
+    },
+    {
+      "id": "thanks",
+      "title": "Aku tahu.",
+      "text": "“makasih ya. aku tahu ini caramu minta maaf.”",
+      "start": 52.1,
+      "end": 55.5
+    },
+    {
+      "id": "learn",
+      "title": "Kata-kata juga boleh.",
+      "text": "dan mungkin, dari situ dia mulai belajar bahwa kata maaf juga boleh diucapkan.",
+      "start": 55.5,
+      "end": 62.92
+    },
+    {
+      "id": "growth",
+      "title": "Ruang untuk tumbuh.",
+      "text": "sometimes, understanding where someone comes from is the first step to helping them grow.",
+      "start": 62.92,
+      "end": 69.03999999999999
+    },
+    {
+      "id": "brand",
+      "title": "less.certain",
+      "text": "LESS CERTAIN.",
+      "start": 69.03999999999999,
+      "end": 70.75999999999999
+    }
+  ],
+  "indonesianCaptions": [
+    {
+      "start": 0.26,
+      "end": 2.08,
+      "text": "Pacarku punya satu kebiasaan",
+      "segment": "habit"
+    },
+    {
+      "start": 2.12,
+      "end": 4.3,
+      "text": "yang selalu membuatku kesal.",
+      "segment": "habit"
+    },
+    {
+      "start": 4.68,
+      "end": 6.4,
+      "text": "Setiap kali kami bertengkar,",
+      "segment": "silence"
+    },
+    {
+      "start": 6.44,
+      "end": 8.36,
+      "text": "dia nggak pernah bilang maaf.",
+      "segment": "silence"
+    },
+    {
+      "start": 8.62,
+      "end": 11.04,
+      "text": "Tapi besoknya, dia tiba-tiba bertanya",
+      "segment": "care"
+    },
+    {
+      "start": 11.08,
+      "end": 12.92,
+      "text": "apakah aku sudah makan,",
+      "segment": "care"
+    },
+    {
+      "start": 13.24,
+      "end": 15.26,
+      "text": "membelikan makanan kesukaanku,",
+      "segment": "care"
+    },
+    {
+      "start": 15.38,
+      "end": 17.82,
+      "text": "atau melakukan hal-hal kecil untukku.",
+      "segment": "care"
+    },
+    {
+      "start": 17.96,
+      "end": 19.5,
+      "text": "Awalnya aku pikir",
+      "segment": "pride"
+    },
+    {
+      "start": 19.54,
+      "end": 20.88,
+      "text": "dia cuma gengsi.",
+      "segment": "pride"
+    },
+    {
+      "start": 21.18,
+      "end": 23.86,
+      "text": "Sampai aku tahu, di rumahnya dulu,",
+      "segment": "home"
+    },
+    {
+      "start": 23.94,
+      "end": 26.48,
+      "text": "nggak ada yang terbiasa\nmeminta maaf.",
+      "segment": "home"
+    },
+    {
+      "start": 26.88,
+      "end": 28.58,
+      "text": "Setelah bapaknya marah besar,",
+      "segment": "martabak"
+    },
+    {
+      "start": 28.82,
+      "end": 30.2,
+      "text": "besoknya mungkin sudah ada",
+      "segment": "martabak"
+    },
+    {
+      "start": 30.24,
+      "end": 31.94,
+      "text": "martabak di meja.",
+      "segment": "martabak"
+    },
+    {
+      "start": 32.1,
+      "end": 33.96,
+      "text": "Buat keluarganya, itulah cara",
+      "segment": "peace"
+    },
+    {
+      "start": 34.0,
+      "end": 35.84,
+      "text": "mereka kembali berdamai.",
+      "segment": "peace"
+    },
+    {
+      "start": 36.12,
+      "end": 37.96,
+      "text": "Akhirnya aku mengerti,",
+      "segment": "understand"
+    },
+    {
+      "start": 38.24,
+      "end": 41.12,
+      "text": "mungkin dia bukan nggak mau\nmeminta maaf.",
+      "segment": "understand"
+    },
+    {
+      "start": 41.48,
+      "end": 44.9,
+      "text": "Dia hanya mengenal cara berbeda\nuntuk menunjukkannya.",
+      "segment": "understand"
+    },
+    {
+      "start": 45.2,
+      "end": 47.86,
+      "text": "Jadi, suatu hari ketika dia kembali",
+      "segment": "again"
+    },
+    {
+      "start": 47.9,
+      "end": 49.52,
+      "text": "melakukan hal kecil untukku",
+      "segment": "again"
+    },
+    {
+      "start": 49.56,
+      "end": 51.84,
+      "text": "setelah bertengkar, aku bilang,",
+      "segment": "again"
+    },
+    {
+      "start": 52.18,
+      "end": 53.2,
+      "text": "“Makasih ya.",
+      "segment": "thanks"
+    },
+    {
+      "start": 53.34,
+      "end": 55.54,
+      "text": "Aku tahu ini caramu minta maaf.”",
+      "segment": "thanks"
+    },
+    {
+      "start": 55.58,
+      "end": 57.84,
+      "text": "Dan mungkin, dari situ",
+      "segment": "learn"
+    },
+    {
+      "start": 57.88,
+      "end": 60.6,
+      "text": "dia mulai belajar bahwa kata maaf",
+      "segment": "learn"
+    },
+    {
+      "start": 60.64,
+      "end": 62.6,
+      "text": "juga boleh diucapkan.",
+      "segment": "learn"
+    },
+    {
+      "start": 63.0,
+      "end": 66.26,
+      "text": "Terkadang, memahami\nlatar belakang seseorang",
+      "segment": "growth"
+    },
+    {
+      "start": 66.3,
+      "end": 67.28,
+      "text": "adalah langkah pertama",
+      "segment": "growth"
+    },
+    {
+      "start": 67.32,
+      "end": 68.3,
+      "text": "untuk membantunya bertumbuh.",
+      "segment": "growth"
+    }
+  ]
+}

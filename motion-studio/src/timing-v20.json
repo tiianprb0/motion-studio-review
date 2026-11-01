@@ -1,0 +1,281 @@
+{
+  "fps": 30,
+  "audioLead": 0.3,
+  "narrationFile": "narration-v19.mp3",
+  "audioSeconds": 71.2,
+  "hasVoice": true,
+  "audioTempoFactor": 1,
+  "directWordMatchRatio": 0.9172413793103448,
+  "alignmentSource": "Local Whisper base words mapped to exact source text",
+  "segments": [
+    {
+      "id": "beat1",
+      "text": "katanya, buat apa ikut demonstrasi kalau masih bisa membeli minuman mahal?",
+      "start": 0,
+      "end": 5.62
+    },
+    {
+      "id": "beat2",
+      "text": "aku justru ingin bertanya, sejak kapan kemampuan seseorang membeli sesuatu menentukan apakah dia berhak menyuarakan ketidakadilan?",
+      "start": 5.62,
+      "end": 14.4
+    },
+    {
+      "id": "beat3",
+      "text": "aku mungkin masih punya pekerjaan, masih bisa membeli makanan yang layak, bahkan menikmati sesuatu yang tidak semua orang mampu beli.",
+      "start": 14.4,
+      "end": 22.419999999999998
+    },
+    {
+      "id": "beat4",
+      "text": "tapi apakah itu berarti aku harus menutup mata terhadap mereka yang bahkan kesulitan memenuhi kebutuhan sehari-hari?",
+      "start": 22.419999999999998,
+      "end": 30.8
+    },
+    {
+      "id": "beat5",
+      "text": "aku sadar, tidak semua orang punya kesempatan untuk bersuara.",
+      "start": 30.8,
+      "end": 35.339999999999996
+    },
+    {
+      "id": "beat6",
+      "text": "ada orang yang harus memilih antara ikut menyampaikan aspirasi atau kehilangan penghasilan hari itu.",
+      "start": 35.339999999999996,
+      "end": 41.94
+    },
+    {
+      "id": "beat7",
+      "text": "ada yang terlalu sibuk bertahan hidup, sampai tidak punya waktu, tenaga, bahkan keberanian untuk memperjuangkan haknya sendiri.",
+      "start": 41.94,
+      "end": 50.12
+    },
+    {
+      "id": "beat8",
+      "text": "itulah mengapa aku percaya, tidak semua orang turun ke jalan hanya untuk dirinya sendiri.",
+      "start": 50.12,
+      "end": 56.879999999999995
+    },
+    {
+      "id": "beat9",
+      "text": "terkadang, aku memperjuangkan sesuatu yang mungkin tidak pernah bisa diperjuangkan oleh orang yang paling membutuhkan perubahan itu.",
+      "start": 56.879999999999995,
+      "end": 65.22
+    },
+    {
+      "id": "beat10",
+      "text": "karena kepedulian tidak harus lahir dari penderitaan yang sama.",
+      "start": 65.22,
+      "end": 69.10000000000001
+    },
+    {
+      "id": "beat11",
+      "text": "LESS CERTAIN.",
+      "start": 69.10000000000001,
+      "end": 71.29
+    }
+  ],
+  "indonesianCaptions": [
+    {
+      "start": 0.27,
+      "end": 1.885,
+      "text": "katanya, buat apa",
+      "segment": "beat1"
+    },
+    {
+      "start": 1.91,
+      "end": 3.525,
+      "text": "ikut demonstrasi kalau masih",
+      "segment": "beat1"
+    },
+    {
+      "start": 3.55,
+      "end": 5.23,
+      "text": "bisa membeli minuman mahal?",
+      "segment": "beat1"
+    },
+    {
+      "start": 5.69,
+      "end": 8.065,
+      "text": "aku justru ingin bertanya, sejak",
+      "segment": "beat2"
+    },
+    {
+      "start": 8.09,
+      "end": 9.765,
+      "text": "kapan kemampuan seseorang membeli",
+      "segment": "beat2"
+    },
+    {
+      "start": 9.79,
+      "end": 11.945,
+      "text": "sesuatu menentukan apakah dia",
+      "segment": "beat2"
+    },
+    {
+      "start": 11.97,
+      "end": 13.99,
+      "text": "berhak menyuarakan ketidakadilan?",
+      "segment": "beat2"
+    },
+    {
+      "start": 14.47,
+      "end": 16.69,
+      "text": "aku mungkin masih punya pekerjaan,",
+      "segment": "beat3"
+    },
+    {
+      "start": 16.85,
+      "end": 19.01,
+      "text": "masih bisa membeli makanan yang layak,",
+      "segment": "beat3"
+    },
+    {
+      "start": 19.19,
+      "end": 20.725,
+      "text": "bahkan menikmati sesuatu",
+      "segment": "beat3"
+    },
+    {
+      "start": 20.75,
+      "end": 22.465,
+      "text": "yang tidak semua orang mampu beli.",
+      "segment": "beat3"
+    },
+    {
+      "start": 22.49,
+      "end": 24.765,
+      "text": "tapi apakah itu berarti",
+      "segment": "beat4"
+    },
+    {
+      "start": 24.79,
+      "end": 26.525,
+      "text": "aku harus menutup mata terhadap",
+      "segment": "beat4"
+    },
+    {
+      "start": 26.55,
+      "end": 28.325,
+      "text": "mereka yang bahkan kesulitan",
+      "segment": "beat4"
+    },
+    {
+      "start": 28.35,
+      "end": 30.29,
+      "text": "memenuhi kebutuhan sehari-hari?",
+      "segment": "beat4"
+    },
+    {
+      "start": 30.87,
+      "end": 32.985,
+      "text": "aku sadar, tidak semua orang",
+      "segment": "beat5"
+    },
+    {
+      "start": 33.01,
+      "end": 35.09,
+      "text": "punya kesempatan untuk bersuara.",
+      "segment": "beat5"
+    },
+    {
+      "start": 35.41,
+      "end": 37.105,
+      "text": "ada orang yang harus memilih",
+      "segment": "beat6"
+    },
+    {
+      "start": 37.13,
+      "end": 39.125,
+      "text": "antara ikut menyampaikan aspirasi",
+      "segment": "beat6"
+    },
+    {
+      "start": 39.15,
+      "end": 41.87,
+      "text": "atau kehilangan penghasilan hari itu.",
+      "segment": "beat6"
+    },
+    {
+      "start": 42.01,
+      "end": 43.605,
+      "text": "ada yang terlalu sibuk bertahan",
+      "segment": "beat7"
+    },
+    {
+      "start": 43.63,
+      "end": 45.91,
+      "text": "hidup, sampai tidak punya waktu,",
+      "segment": "beat7"
+    },
+    {
+      "start": 46.17,
+      "end": 48.285,
+      "text": "tenaga, bahkan keberanian",
+      "segment": "beat7"
+    },
+    {
+      "start": 48.31,
+      "end": 50.165,
+      "text": "untuk memperjuangkan haknya sendiri.",
+      "segment": "beat7"
+    },
+    {
+      "start": 50.19,
+      "end": 52.67,
+      "text": "itulah mengapa aku percaya,",
+      "segment": "beat8"
+    },
+    {
+      "start": 53.03,
+      "end": 54.625,
+      "text": "tidak semua orang turun ke jalan",
+      "segment": "beat8"
+    },
+    {
+      "start": 54.65,
+      "end": 56.57,
+      "text": "hanya untuk dirinya sendiri.",
+      "segment": "beat8"
+    },
+    {
+      "start": 56.95,
+      "end": 58.965,
+      "text": "terkadang, aku memperjuangkan",
+      "segment": "beat9"
+    },
+    {
+      "start": 58.99,
+      "end": 61.225,
+      "text": "sesuatu yang mungkin tidak pernah bisa",
+      "segment": "beat9"
+    },
+    {
+      "start": 61.25,
+      "end": 63.265,
+      "text": "diperjuangkan oleh orang yang paling",
+      "segment": "beat9"
+    },
+    {
+      "start": 63.29,
+      "end": 65.09,
+      "text": "membutuhkan perubahan itu.",
+      "segment": "beat9"
+    },
+    {
+      "start": 65.29,
+      "end": 67.765,
+      "text": "karena kepedulian tidak harus lahir",
+      "segment": "beat10"
+    },
+    {
+      "start": 67.79,
+      "end": 69.35,
+      "text": "dari penderitaan yang sama.",
+      "segment": "beat10"
+    }
+  ],
+  "outroStart": 69.10000000000001,
+  "duration": 72.7,
+  "version": "V20"
+}

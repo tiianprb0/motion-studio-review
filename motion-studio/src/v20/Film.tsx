@@ -1,0 +1,13 @@
+import React from 'react';
+import {AbsoluteFill,Audio,Img,Sequence,staticFile,useCurrentFrame,delayRender,continueRender} from 'remotion';
+import timing from '../timing-v20.json';
+import {P,ramp} from './Character';
+import {Caption} from './Captions';
+import {Outro} from './Elements';
+import {Beat} from './BeatGraphics';
+export const OUTRO_START=Math.round(timing.outroStart*30),TOTAL_FRAMES=Math.round(timing.duration*30);
+export const SHOTS=timing.indonesianCaptions.map((c,i)=>({id:i+1,start:i===0?0:Math.round(c.start*30),end:i===timing.indonesianCaptions.length-1?OUTRO_START:Math.round(timing.indonesianCaptions[i+1].start*30),location:'beat'+i,variant:'breath'})).concat([{id:34,start:OUTRO_START,end:TOTAL_FRAMES,location:'brand',variant:'outro'}]);
+export function World({frame}:{frame:number}){if(frame>=OUTRO_START)return <Outro f={frame-OUTRO_START}/>;const index=Math.max(0,SHOTS.findIndex(s=>frame>=s.start&&frame<s.end)),shot=SHOTS[index];const wipe=SHOTS.slice(1).filter(s=>[4,8,12,16,18,21,25,28,32,34].includes(s.id)).find(s=>frame>=s.start-10&&frame<s.start+11);const scene=<Beat i={index} frame={frame} start={shot.start} end={shot.end}/>;if(!wipe)return scene;const tx=ramp(frame,wipe.start-10,wipe.start+10,1140,-1340),color=wipe.id%2?P.ink:'#C9D4BC';return <>{scene}<g transform={`translate(${tx} 0)`}><rect x="-40" y="-100" width="1320" height="2200" fill={color}/><path d="M0-100V2100M40-100V2100" stroke={P.gold} strokeWidth="9" opacity=".5"/></g></>}
+export const getCue=(frame:number)=>timing.indonesianCaptions.findIndex(c=>frame/30>=c.start&&frame/30<c.end);
+export const AuditFrame=({frame}:{frame:number})=>{const i=getCue(frame);return <div style={{position:'relative',width:1080,height:1920,overflow:'hidden'}}><svg width="1080" height="1920" viewBox="0 0 1080 1920"><World frame={frame}/>{i>=0&&frame<OUTRO_START&&<Caption cue={{...timing.indonesianCaptions[i],segment:''}} index={i} frame={frame}/>}</svg></div>};
+export const FilmV20:React.FC=()=>{const frame=useCurrentFrame();React.useLayoutEffect(()=>{const h=delayRender('Complete SVG paint');let r1=0,r2=0;const t=setTimeout(()=>{r1=requestAnimationFrame(()=>{r2=requestAnimationFrame(()=>continueRender(h))})},70);return()=>{clearTimeout(t);cancelAnimationFrame(r1);cancelAnimationFrame(r2);continueRender(h)}},[frame]);return <AbsoluteFill style={{background:P.paper}}><AuditFrame key={frame} frame={frame}/>{frame<OUTRO_START&&<Img src={staticFile('less-certain-logo.png')} style={{position:'absolute',right:78,top:66,width:156,height:58,objectFit:'contain',filter:frame<SHOTS[0].end?'brightness(0) invert(1)':undefined}}/>}<Sequence from={Math.round(timing.audioLead*30)}><Audio src={staticFile(timing.narrationFile)}/></Sequence></AbsoluteFill>};
